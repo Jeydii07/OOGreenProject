@@ -1,0 +1,44 @@
+@startuml
+skinparam style strictuml
+skinparam classAttributeIconSize 0
+skinparam classFontColor black
+skinparam classFontStyle bold
+skinparam sequenceMessageAlign Center
+hide empty members
+
+skinparam class {
+BackgroundColor white
+BorderColor black
+ArrowColor black
+}
+
+class User{
+()Choose Formula from FormulaList
+}
+
+class AECalculator {
+ }
+
+class FormulaList {
++Addition, Subtraction, Multiplication, Division
++Physics, Chemistry, Geometry
++Trigonometric, Hyperbolic, Roots, Exponential Functions
++Metric, SI units, Temperature Conversions
++Matrix, Craimer's, Substitution, Elimination Method
+}
+
+class MainMenu {
++Variables,<Values>
+()Show variables
+()Input values
+()Calculate
+}
+
+class Output{
+()Show computed value
+}
+
+AECalculator -down- User
+(User, MainMenu) ... FormulaList
+MainMenu -down- Output
+@enduml
