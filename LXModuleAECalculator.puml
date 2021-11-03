@@ -8,8 +8,8 @@ hide empty members
 
 skinparam class {
 BackgroundColor white
-BorderColor black
-ArrowColor black
+BorderColor blue
+ArrowColor blue
 }
 
 class User{
@@ -20,16 +20,22 @@ class AECalculator {
  }
 
 class FormulaList {
+Basic Math:
 +Addition, Subtraction, Multiplication, Division
-+Physics, Chemistry, Geometry
 +Trigonometric, Hyperbolic, Roots, Exponential Functions
+Advanced Math:
++Physics, Chemistry, Geometry
+Conversions:
 +Metric, SI units, Temperature Conversions
-+Matrix, Craimer's, Substitution, Elimination Method
+Matrix:
++Craimer's
 }
 
 class MainMenu {
-+Variables,<Values>
-()Show variables
++Choose 1 for Basic Math
++Choose 2 for Advanced Math
++Choose 3 for Conversions
+()Present Formula list
 ()Input values
 ()Calculate
 }
@@ -38,7 +44,8 @@ class Output{
 ()Show computed value
 }
 
-AECalculator -down- User
-(User, MainMenu) ... FormulaList
+AECalculator -down- MainMenu
+User -right- MainMenu
+MainMenu -right- FormulaList
 MainMenu -down- Output
 @enduml
