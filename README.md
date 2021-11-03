@@ -9,7 +9,25 @@
 
 ### Features: ###
   * Solve Basic Math Equations and Expressions
-  * Solve Advanced Math Problems (Physics, Geometry, Chemistry
+  * - Addition
+  * - Subtraction 
+  * - Multiplication 
+  * - Division,
+  * - Exponents,
+  * - Logarithms,
+  * - Sin Function
+  ----------------------------------------------
+  * Solve Advanced Math Problems (Physics, Geometry, Chemistry)
+  * - For Physics
+  * speed , velocity, acceleration, pressure, force, momentum, power, kinetic energy,  Coloumbs Law, and Drift velocity
+  * - For Chemistry
+  * Density, Boyles Law, Combined Gas Law
+  * - For Geometry
+  *  Perimeter and Area of the following Geometric Shapes
+  *  Square, Rectangle, Parallelogram, Trapezoid, Triangle, and Circle(area and circumference)
+  *  Volume and Surface Area of the ff: Geometric Shapes
+  *  Rectangular Prism, Cube, Cylinder, Sphere, Cone and Pyramid
+  ----------------------------------------------
   * Can Handle Conversions (SI, Metric, Temperature)
   * Solve Matrices using Craimers Rule
 
