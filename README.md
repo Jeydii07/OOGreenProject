@@ -18,18 +18,25 @@
   * - Sine Function
   ----------------------------------------------
   * Solve Advanced Math Problems (Physics, Geometry, Chemistry)
-  * - For Physics
+   ## For Physics
   * speed , velocity, acceleration, pressure, force, momentum, power, kinetic energy,  Coloumbs Law, and Drift velocity
-  * - For Chemistry
+   ## For Chemistry
   * Density, Boyles Law, Combined Gas Law
-  * - For Geometry
-  *  Perimeter and Area of the following Geometric Shapes
+   ## For Geometry
+  *  Perimeter and Area of the following Geometric Shapes:
   *  Square, Rectangle, Parallelogram, Trapezoid, Triangle, and Circle(area and circumference)
-  *  Volume and Surface Area of the ff: Geometric Shapes
+  *  Volume and Surface Area of the ff: Geometric Shapes:
   *  Rectangular Prism, Cube, Cylinder, Sphere, Cone and Pyramid
   ----------------------------------------------
   * Can Handle Conversions (SI, Metric, Temperature)
   * Solve Matrices using Craimers Rule
-
-
+  
 [Trello Board](https://trello.com/b/2SZiAiPq/001lxgreen)
+
+### Similar Applications: ###
+[Symbolab](https://www.symbolab.com/)
+[Mathway](https://www.mathway.com/)
+[Calculator.net](https://www.calculator.net/conversion-calculator.html)
+[Matrix Calculator](https://matrix.reshish.com/cramer.php)
+[Wolfram Alpha](https://www.wolframalpha.com)
+
