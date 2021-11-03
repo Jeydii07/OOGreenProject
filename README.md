@@ -15,7 +15,7 @@
   * - Division,
   * - Exponents,
   * - Logarithms,
-  * - Sin Function
+  * - Sine Function
   ----------------------------------------------
   * Solve Advanced Math Problems (Physics, Geometry, Chemistry)
   * - For Physics
