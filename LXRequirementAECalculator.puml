@@ -1,0 +1,50 @@
+@startuml
+left to right direction
+skinparam style strictuml
+skinparam classAttributeIconSize 0
+skinparam classFontColor black
+skinparam classFontStyle bold
+hide empty members
+
+skinparam class {
+
+BackgroundColor White
+BorderColor black
+ArrowColor black
+}
+
+package AECalculator {
+    usecase "System presents 3 Main Features" as I1
+    usecase "Choose a desired Feature" as I2
+    usecase "System presents a list of formulas\n classified Under the main feature" as I3
+    usecase "Choose a desired formula from the list" as I4
+    usecase "System presents the necessary\n variables needed for computation" as I5
+    usecase "Inputs the values needed for computation" as I6
+    usecase "System calculates and presents the output" as I7
+    usecase "System repeats the previous steps" as I8
+    usecase "Chooses end program" as I9
+    usecase "System ends the program" as I10
+
+}
+note "3 Main Features Include:\n Basic Math\n Advanced Math\n Conversion" as N1
+note "Formulas Include:\n Basic Math Concepts\n Physics\n Chemistry\n Geometry\n Common Conversion Units\n Matrices" as N2
+
+I1 -left- I2
+I2 -left- I3
+I3 -left- I4
+I4 -left- I5
+I5 -left- I6
+I6 -left- I7
+I7 -left- I8
+I8 -left- I9
+I9 -left- I10
+
+:User: --> I2
+:User: --> I4
+:User: --> I6
+:User: --> I9
+
+I1 -- N1
+I3 -- N2
+
+@enduml
