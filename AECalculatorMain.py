@@ -3,7 +3,9 @@ from AECalcFormulas import AdvancedMath
 
 while True:
     # Choosing a Feature
-    print("<AECalculator Main>")
+    print("        ╔═╗╔═╗  ╔═╗╔═╗╦  ╔═╗╦ ╦╦  ╔═╗╔╦╗╔═╗╦═╗")
+    print("        ╠═╣║╣   ║  ╠═╣║  ║  ║ ║║  ╠═╣ ║ ║ ║╠╦╝")
+    print("        ╩ ╩╚═╝  ╚═╝╩ ╩╩═╝╚═╝╚═╝╩═╝╩ ╩ ╩ ╚═╝╩╚═")
     print("Choose a Feature:"
           "\nInput 1 for Basic Math"
           "\nInput 2 Advanced Math"
@@ -13,7 +15,9 @@ while True:
 
     if x == 1:
         # Basic Math Formula List
-        print("<AECalculator Basic Math>")
+        print("           ╔╗ ╔═╗╔═╗╦╔═╗  ╔╦╗╔═╗╔╦╗╦ ╦")
+        print("           ╠╩╗╠═╣╚═╗║║    ║║║╠═╣ ║ ╠═╣")
+        print("           ╚═╝╩ ╩╚═╝╩╚═╝  ╩ ╩╩ ╩ ╩ ╩ ╩ ")
         print("Choose a Formula:"
               "\nInput 1 for Addition"
               "\nInput 2 for Subtraction"
@@ -28,41 +32,43 @@ while True:
         y = int(input("Enter Feature: "))
         if y == 1:
             add = BasicMath.add()
-            print("The answer is: ", add)
+            print("--------------The answer is:", add, "--------------")
         elif y == 2:
             sub = BasicMath.subtract()
-            print("The answer is: ", sub)
+            print("--------------The answer is: ", sub, "--------------")
         elif y == 3:
             mul = BasicMath.multiply()
-            print("The answer is: ", mul)
+            print("--------------The answer is: ", mul, "--------------")
         elif y == 4:
             div = BasicMath.divide()
-            print("The answer is: ", div)
+            print("--------------The answer is: ", div, "--------------")
         elif y == 5:
             exp = BasicMath.exponent()
-            print("The answer is: ", exp)
+            print("--------------The answer is: ", exp, "--------------")
         elif y == 6:
             roo = BasicMath.root()
-            print("The answer is: ", roo)
+            print("--------------The answer is: ", roo, "--------------")
         elif y == 7:
             log = BasicMath.logarithm()
-            print("The answer is: ", log)
+            print("--------------The answer is: ", log, "--------------")
         elif y == 8:
             sin = BasicMath.sin()
-            print("The answer is: ", sin)
+            print("--------------The answer is: ", sin, "--------------")
         elif y == 9:
             cos = BasicMath.cos()
-            print("The answer is: ", cos)
+            print("--------------The answer is: ", cos, "--------------")
         elif y == 10:
             tan = BasicMath.tan()
-            print("The answer is: ", tan)
+            print("--------------The answer is: ", tan, "--------------")
         elif y == 11:
             asi = BasicMath.arc_sin()
-            print("The answer is: ", asi)
+            print("--------------The answer is: ", asi, "--------------")
 
     elif x == 2:
         # Advanced Math Formula List
-        print("<AECalculator Advanced Math>")
+        print("       ╔═╗╔╦╗╦  ╦╔═╗╔╗╔╔═╗╔═╗╔╦╗  ╔╦╗╔═╗╔╦╗╦ ╦")
+        print("       ╠═╣ ║║╚╗╔╝╠═╣║║║║  ║╣  ║║  ║║║╠═╣ ║ ╠═╣")
+        print("       ╩ ╩═╩╝ ╚╝ ╩ ╩╝╚╝╚═╝╚═╝═╩╝  ╩ ╩╩ ╩ ╩ ╩ ╩")
         print("Choose a Formula:"
               "\nInput 1 for Physics"
               "\nInput 2 for Chemistry"
@@ -71,7 +77,9 @@ while True:
 
         if y == 1:
             # Physics Formula List
-            print("<AECalculator Advanced Math Physics>")
+            print("             ╔═╗╦ ╦╦ ╦╔═╗╦╔═╗╔═╗")
+            print("             ╠═╝╠═╣╚╦╝╚═╗║║  ╚═╗")
+            print("             ╩  ╩ ╩ ╩ ╚═╝╩╚═╝╚═╝")
             print("Choose a Formula:"
                   "\nInput 1 for Speed"
                   "\nInput 2 for Velocity"
@@ -92,50 +100,52 @@ while True:
 
             if z == 1:
                 spd = AdvancedMath.Physics.speed()
-                print("The speed is: ", spd)
+                print("--------------The speed is: ", spd, "--------------")
             elif z == 2:
                 vel = AdvancedMath.Physics.velocity()
-                print("The velocity is: ", vel)
+                print("--------------The velocity is: ", vel, "--------------")
             elif z == 3:
                 acc = AdvancedMath.Physics.acc()
-                print("The acceleration is: ", acc)
+                print("--------------The acceleration is: ", acc, "--------------")
             elif z == 4:
                 pre = AdvancedMath.Physics.pressure()
-                print("The pressure is: ", pre)
+                print("--------------The pressure is: ", pre, "--------------")
             elif z == 5:
                 forc = AdvancedMath.Physics.force()
-                print("The force is: ", forc)
+                print("--------------The force is: ", forc, "--------------")
             elif z == 6:
                 mom = AdvancedMath.Physics.momen()
-                print("The momentum is: ", mom)
+                print("--------------The momentum is: ", mom, "--------------")
             elif z == 7:
                 pow = AdvancedMath.Physics.power()
-                print("The power is: ", pow)
+                print("--------------The power is: ", pow, "--------------")
             elif z == 8:
                 vol = AdvancedMath.Physics.volt()
-                print("The voltage is: ", vol)
+                print("--------------The voltage is: ", vol, "--------------")
             elif z == 9:
                 cur = AdvancedMath.Physics.current()
-                print("The current is: ", cur)
+                print("--------------The current is: ", cur, "--------------")
             elif z == 10:
                 res = AdvancedMath.Physics.resistance()
-                print("The resistance is: ", res)
+                print("--------------The resistance is: ", res, "--------------")
             elif z == 11:
                 ke = AdvancedMath.Physics.ke()
-                print("The kinetic energy is: ", ke)
+                print("--------------The kinetic energy is: ", ke, "--------------")
             elif z == 12:
                 wor = AdvancedMath.Physics.work()
-                print("The work is: ", wor)
+                print("--------------The work is: ", wor, "--------------")
             elif z == 13:
                 col = AdvancedMath.Physics.coulombslaw()
-                print("The electric force is: ", col)
+                print("--------------The electric force is: ", col, "--------------")
             elif z == 14:
                 drv = AdvancedMath.Physics.driftv()
-                print("The drift velocity is: ", drv)
+                print("--------------The drift velocity is: ", drv, "--------------")
 
         elif y == 2:
             # Chemistry Formula List
-            print("<AECalculator Advanced Math Chemistry>")
+            print("           ╔═╗╦ ╦╔═╗╔╦╗╦╔═╗╔╦╗╦═╗╦ ╦")
+            print("           ║  ╠═╣║╣ ║║║║╚═╗ ║ ╠╦╝╚╦╝")
+            print("           ╚═╝╩ ╩╚═╝╩ ╩╩╚═╝ ╩ ╩╚═ ╩ ")
             print("Choose a Formula:"
                   "\nInput 1 for Density"
                   "\nInput 2 for Boyle's Law(P1)"
@@ -152,40 +162,42 @@ while True:
             z = int(input("Enter Feature: "))
             if z == 1:
                 den = AdvancedMath.Chemistry.density()
-                print("The density is: ", den)
+                print("--------------The density is: ", den, "--------------")
             elif z == 2:
                 bp1 = AdvancedMath.Chemistry.boyle_p1()
-                print("The P1 value is: ", bp1)
+                print("--------------The P1 value is: ", bp1, "--------------")
             elif z == 3:
                 bp2 = AdvancedMath.Chemistry.boyle_p2()
-                print("The P2 value is: ", bp2)
+                print("--------------The P2 value is: ", bp2, "--------------")
             elif z == 4:
                 bv1 = AdvancedMath.Chemistry.boyle_v1()
-                print("The V1 value is: ", bv1)
+                print("--------------The V1 value is: ", bv1, "--------------")
             elif z == 5:
                 bv2 = AdvancedMath.Chemistry.boyle_v2()
-                print("The V2 value is: ", bv2)
+                print("--------------The V2 value is: ", bv2, "--------------")
             elif z == 6:
                 cp1 = AdvancedMath.Chemistry.combined_gas_law_p1()
-                print("The P1 value is: ", cp1)
+                print("--------------The P1 value is: ", cp1, "--------------")
             elif z == 7:
                 cp2 = AdvancedMath.Chemistry.combined_gas_law_p2()
-                print("The P2 value is: ", cp2)
+                print("--------------The P2 value is: ", cp2, "--------------")
             elif z == 8:
                 cv1 = AdvancedMath.Chemistry.combined_gas_law_v1()
-                print("The V1 value is: ", cv1)
+                print("--------------The V1 value is: ", cv1, "--------------")
             elif z == 9:
                 cv2 = AdvancedMath.Chemistry.combined_gas_law_v2()
-                print("The V2 value is: ", cv2)
+                print("--------------The V2 value is: ", cv2, "--------------")
             elif z == 10:
                 ct1 = AdvancedMath.Chemistry.combined_gas_law_t1()
-                print("The T1 value is: ", ct1)
+                print("--------------The T1 value is: ", ct1, "--------------")
             elif z == 11:
                 ct2 = AdvancedMath.Chemistry.combined_gas_law_t2()
-                print("The T2 value is: ", ct2)
+                print("--------------The T2 value is: ", ct2, "--------------")
         elif y == 3:
             # Geometry Formula List
-            print("<AECalculator Advanced Math Geometry>")
+            print("           ╔═╗╔═╗╔═╗╔╦╗╔═╗╔╦╗╦═╗╦ ╦")
+            print("           ║ ╦║╣ ║ ║║║║║╣  ║ ╠╦╝╚╦╝")
+            print("           ╚═╝╚═╝╚═╝╩ ╩╚═╝ ╩ ╩╚═ ╩ ")
             print("Choose a Formula:"
                   "\nInput 1 for Square(A)"
                   "\nInput 2 for Square(P)"
@@ -215,76 +227,78 @@ while True:
             z = int(input("Enter Feature: "))
             if z == 1:
                 sqa = AdvancedMath.Geometry.square_area()
-                print("The area is: ", sqa)
+                print("--------------The area is: ", sqa, "--------------")
             elif z == 2:
                 sqp = AdvancedMath.Geometry.square_perimeter()
-                print("The perimeter is: ", sqp)
+                print("--------------The perimeter is: ", sqp, "--------------")
             elif z == 3:
                 rea = AdvancedMath.Geometry.rectangle_area()
-                print("The area is: ", rea)
+                print("--------------The area is: ", rea, "--------------")
             elif z == 4:
                 rep = AdvancedMath.Geometry.rectangle_perimeter()
-                print("The perimeter is: ", rep)
+                print("--------------The perimeter is: ", rep, "--------------")
             elif z == 5:
                 tra = AdvancedMath.Geometry.triangle_area()
-                print("The area is: ", tra)
+                print("--------------The area is: ", tra, "--------------")
             elif z == 6:
                 trp = AdvancedMath.Geometry.triangle_perimeter()
-                print("The perimeter is: ", trp)
+                print("--------------The perimeter is: ", trp, "--------------")
             elif z == 7:
                 cia = AdvancedMath.Geometry.circle_area()
-                print("The area is: ", cia)
+                print("--------------The area is: ", cia, "--------------")
             elif z == 8:
                 cic = AdvancedMath.Geometry.circle_circumference()
-                print("The circumference is: ", cic)
+                print("--------------The circumference is: ", cic, "--------------")
             elif z == 9:
                 paa = AdvancedMath.Geometry.parallelogram_area()
-                print("The area is: ", paa)
+                print("--------------The area is: ", paa, "--------------")
             elif z == 10:
                 pap = AdvancedMath.Geometry.parallelogram_perimeter()
-                print("The perimeter is: ", pap)
+                print("--------------The perimeter is: ", pap, "--------------")
             elif z == 11:
                 tra = AdvancedMath.Geometry.trapezoid_area()
-                print("The area is: ", tra)
+                print("--------------The area is: ", tra, "--------------")
             elif z == 12:
                 trp = AdvancedMath.Geometry.trapezoid_perimeter()
-                print("The perimeter is: ", trp)
+                print("--------------The perimeter is: ", trp, "--------------")
             elif z == 13:
                 rpv = AdvancedMath.Geometry.rectangular_prism_volume()
-                print("The volume is: ", rpv)
+                print("--------------The volume is: ", rpv, "--------------")
             elif z == 14:
                 rpa = AdvancedMath.Geometry.rectangular_prism_surface()
-                print("The surface area is: ", rpa)
+                print("--------------The surface area is: ", rpa, "--------------")
             elif z == 15:
                 cuv = AdvancedMath.Geometry.cube_volume()
-                print("The volume is: ", cuv)
+                print("--------------The volume is: ", cuv, "--------------")
             elif z == 16:
                 cua = AdvancedMath.Geometry.cube_sa()
-                print("The surface area is: ", cua)
+                print("--------------The surface area is: ", cua, "--------------")
             elif z == 17:
                 cyv = AdvancedMath.Geometry.cylinder_volume()
-                print("The volume is: ", cyv)
+                print("--------------The volume is: ", cyv, "--------------")
             elif z == 18:
                 cya = AdvancedMath.Geometry.cylinder_sa()
-                print("The surface area is: ", cya)
+                print("--------------The surface area is: ", cya, "--------------")
             elif z == 19:
                 spv = AdvancedMath.Geometry.sphere_volume()
-                print("The volume is: ", spv)
+                print("--------------The volume is: ", spv, "--------------")
             elif z == 20:
                 spa = AdvancedMath.Geometry.sphere_sa()
-                print("The surface area is: ", spa)
+                print("--------------The surface area is: ", spa, "--------------")
             elif z == 21:
                 cov = AdvancedMath.Geometry.cone_volume()
-                print("The volume is: ", cov)
+                print("--------------The volume is: ", cov, "--------------")
             elif z == 22:
                 coa = AdvancedMath.Geometry.cone_sa()
-                print("The surface area is: ", coa)
+                print("--------------The surface area is: ", coa, "--------------")
             elif z == 23:
                 pyv = AdvancedMath.Geometry.pyramid_volume()
-                print("The volume is: ", pyv)
+                print("--------------The volume is: ", pyv, "--------------")
     elif x == 3:
         # Conversions Formula List
-        print("<AECalculator Conversions>")
+        print("         ╔═╗╔═╗╔╗╔╦  ╦╔═╗╦═╗╔═╗╦╔═╗╔╗╔╔═╗")
+        print("         ║  ║ ║║║║╚╗╔╝║╣ ╠╦╝╚═╗║║ ║║║║╚═╗")
+        print("         ╚═╝╚═╝╝╚╝ ╚╝ ╚═╝╩╚═╚═╝╩╚═╝╝╚╝╚═╝")
         print("Choose a Formula:"
               "\nInput 1 for Temperature"
               "\nInput 2 for Metric"
@@ -293,7 +307,9 @@ while True:
 
         if y == 1:
             # Temperature Formula List
-            print("<AECalculator Temperature>")
+            print("         ╔╦╗╔═╗╔╦╗╔═╗╔═╗╦═╗╔═╗╔╦╗╦ ╦╦═╗╔═╗")
+            print("          ║ ║╣ ║║║╠═╝║╣ ╠╦╝╠═╣ ║ ║ ║╠╦╝║╣ ")
+            print("          ╩ ╚═╝╩ ╩╩  ╚═╝╩╚═╩ ╩ ╩ ╚═╝╩╚═╚═╝")
             print("Choose a Formula:"
                   "\nInput 1 for Fahrenheit to Celsius"
                   "\nInput 2 for Celsius to Fahrenheit"
@@ -304,7 +320,9 @@ while True:
 
         elif y == 2:
             # Metric Formula List
-            print("<AECalculator Metric Units>")
+            print("        ╔╦╗╔═╗╔╦╗╦═╗╦╔═╗  ╦ ╦╔╗╔╦╔╦╗╔═╗")
+            print("        ║║║║╣  ║ ╠╦╝║║    ║ ║║║║║ ║ ╚═╗")
+            print("        ╩ ╩╚═╝ ╩ ╩╚═╩╚═╝  ╚═╝╝╚╝╩ ╩ ╚═╝")
             print("Choose a Formula:"
                   "\nInput 1 for Length"
                   "\nInput 2 for Volume"
@@ -313,7 +331,9 @@ while True:
             z = int(input("Enter Feature: "))
 
             if z == 1:
-                print("<AECalculator Metric Length Units>")
+                print("    ╔╦╗╔═╗╔╦╗╦═╗╦╔═╗  ╦  ╔═╗╔╗╔╔═╗╔╦╗╦ ╦")
+                print("    ║║║║╣  ║ ╠╦╝║║    ║  ║╣ ║║║║ ╦ ║ ╠═╣")
+                print("    ╩ ╩╚═╝ ╩ ╩╚═╩╚═╝  ╩═╝╚═╝╝╚╝╚═╝ ╩ ╩ ╩")
                 print("Choose a Formula:"
                       "\nInput 1 for Inch to Centimeters"
                       "\nInput 2 for Centimeter to Inch"
@@ -326,7 +346,9 @@ while True:
                       )
 
             elif z == 2:
-                print("<AECalculator Metric Volume Units>")
+                print("   ╔╦╗╔═╗╔╦╗╦═╗╦╔═╗  ╦  ╦╔═╗╦  ╦ ╦╔╦╗╔═╗")
+                print("   ║║║║╣  ║ ╠╦╝║║    ╚╗╔╝║ ║║  ║ ║║║║║╣ ")
+                print("   ╩ ╩╚═╝ ╩ ╩╚═╩╚═╝   ╚╝ ╚═╝╩═╝╚═╝╩ ╩╚═╝")
                 print("Choose a Formula:"
                       "\nInput 1 for Quarts to Pints"
                       "\nInput 2 for Pints to Quarts"
@@ -335,7 +357,9 @@ while True:
                       )
 
             elif z == 3:
-                print("<AECalculator Metric Weight Units>")
+                print("   ╔╦╗╔═╗╔╦╗╦═╗╦╔═╗  ╦ ╦╔═╗╦╔═╗╦ ╦╔╦╗╔═╗")
+                print("   ║║║║╣  ║ ╠╦╝║║    ║║║║╣ ║║ ╦╠═╣ ║ ╚═╗")
+                print("   ╩ ╩╚═╝ ╩ ╩╚═╩╚═╝  ╚╩╝╚═╝╩╚═╝╩ ╩ ╩ ╚═╝")
                 print("Choose a Formula:"
                       "\nInput 1 for Gram to Kilogram"
                       "\nInput 2 for Kilogram to Gram"
