@@ -195,8 +195,8 @@ class AdvancedMath:
             b = int(input('Number of electrons: '))
             c = int(input('Area (m^2): '))
             d = int(input('Charge (C): '))
-            answer_dr = float(a / b * c * d)
-            limit_dr = round(answer_dr, 2)
+            answer_dr = float(a / (b * c * d))
+            limit_dr = round(answer_dr, 5)
             return limit_dr
 
     class Chemistry:
@@ -213,8 +213,8 @@ class AdvancedMath:
             a = int(input('V1: '))
             b = int(input('V2: '))
             c = int(input('P2: '))
-            answer_p1 = (c * b) / a
-            limit_p1 = round(answer_p1, 2)
+            answer_p1 = ((c * b) / a)
+            limit_p1 = round(answer_p1, 4)
             return limit_p1
 
         @classmethod
@@ -222,8 +222,8 @@ class AdvancedMath:
             a = int(input('P1: '))
             b = int(input('P2: '))
             c = int(input('V2: '))
-            answer_v1 = (b * c) / a
-            limit_v1 = round(answer_v1, 2)
+            answer_v1 = ((b * c) / a)
+            limit_v1 = round(answer_v1, 4)
             return limit_v1
 
         @classmethod
@@ -231,17 +231,17 @@ class AdvancedMath:
             a = int(input('V1: '))
             b = int(input('V2: '))
             c = int(input('P1: '))
-            answer_p2 = (c * b) / a
-            limit_p2 = round(answer_p2, 2)
+            answer_p2 = (c * a) / b
+            limit_p2 = round(answer_p2, 4)
             return limit_p2
 
         @classmethod
         def boyle_v2(cls):
             a = int(input('P1: '))
             b = int(input('P2: '))
-            c = int(input('V2: '))
-            answer_v2 = (b * c) / a
-            limit_v2 = round(answer_v2, 2)
+            c = int(input('V1: '))
+            answer_v2 = (a * c) / b
+            limit_v2 = round(answer_v2, 4)
             return limit_v2
 
         @classmethod
@@ -252,7 +252,7 @@ class AdvancedMath:
             d = int(input('T1: '))
             e = int(input('T2: '))
             answer_v1 = ((d * b * c) / (a * e))
-            limit_v1 = round(answer_v1, 2)
+            limit_v1 = round(answer_v1, 4)
             return limit_v1
 
         @classmethod
@@ -263,7 +263,7 @@ class AdvancedMath:
             d = int(input('T1: '))
             e = int(input('T2: '))
             answer_v2 = ((a * c * e) / (d * b))
-            limit_v2 = round(answer_v2, 2)
+            limit_v2 = round(answer_v2, 4)
             return limit_v2
 
         @classmethod
@@ -274,7 +274,7 @@ class AdvancedMath:
             d = int(input('T1: '))
             e = int(input('T2: '))
             answer_p1 = ((d * b * a) / (c * e))
-            limit_p1 = round(answer_p1, 2)
+            limit_p1 = round(answer_p1, 4)
             return limit_p1
 
         @classmethod
@@ -285,7 +285,7 @@ class AdvancedMath:
             d = int(input('V2: '))
             e = int(input('T1: '))
             answer_p2 = ((a * b * c) / (d * e))
-            limit_p2 = round(answer_p2, 2)
+            limit_p2 = round(answer_p2, 4)
             return limit_p2
 
         @classmethod
@@ -296,18 +296,18 @@ class AdvancedMath:
             d = int(input('P2: '))
             e = int(input('V2: '))
             answer_t1 = ((a * b * c) / (d * e))
-            limit_t1 = round(answer_t1, 2)
+            limit_t1 = round(answer_t1, 4)
             return limit_t1
 
         @classmethod
         def combined_gas_law_t2(cls):
             a = int(input('P1: '))
             b = int(input('V1: '))
-            c = int(input('T2: '))
+            c = int(input('T1: '))
             d = int(input('P2: '))
             e = int(input('V2: '))
-            answer_t2 = ((a * b * c) / (d * e))
-            limit_t2 = round(answer_t2, 2)
+            answer_t2 = ((d * e * c) / (a * b))
+            limit_t2 = round(answer_t2, 4)
             return limit_t2
 
 
@@ -323,7 +323,7 @@ class AdvancedMath:
         @classmethod
         def square_perimeter(cls):
             a = int(input('Side: '))
-            answer_perimeter = (a * a * a * a)
+            answer_perimeter = (4 * a)
             limit_perimeter = round(answer_perimeter, 2)
             return limit_perimeter
 
@@ -339,23 +339,23 @@ class AdvancedMath:
         def rectangle_perimeter(cls):
             a = int(input('Length: '))
             b = int(input('Width: '))
-            answer_perimeter = (2 * a * 2 * b)
+            answer_perimeter = 2 * (a + b)
             limit_perimeter = round(answer_perimeter, 2)
             return limit_perimeter
 
         @classmethod
         def parallelogram_area(cls):
-            a = int(input('Length: '))
-            b = int(input('Width: '))
+            a = int(input('Base: '))
+            b = int(input('Height: '))
             answer_area = (a * b)
             limit_area = round(answer_area, 2)
             return limit_area
 
         @classmethod
         def parallelogram_perimeter(cls):
-            a = int(input('Length: '))
-            b = int(input('Width: '))
-            answer_perimeter = (2 * a * 2 * b)
+            a = int(input('Side: '))
+            b = int(input('Base: '))
+            answer_perimeter = 2 * ( a + b)
             limit_perimeter = round(answer_perimeter, 2)
             return limit_perimeter
 
@@ -423,7 +423,7 @@ class AdvancedMath:
             a = int(input('Length: '))
             b = int(input('Width: '))
             c = int(input('Height: '))
-            answer_sa = (2 * a * c + 2 * b * c + 2 * a * b)
+            answer_sa = 2 * (b * c + c * a + b * c)
             limit_sa = round(answer_sa, 2)
             return limit_sa
 
@@ -460,14 +460,14 @@ class AdvancedMath:
         @classmethod
         def sphere_volume(cls):
             a = int(input('Radius: '))
-            answer_volume = 4/3 * 3.14 * (a * a * a)
+            answer_volume = 4/3 * (3.14 * (a * a * a))
             limit_volume = round(answer_volume, 2)
             return limit_volume
 
         @classmethod
         def sphere_sa(cls):
             a = int(input('Radius: '))
-            answer_sa = 4 * 3.14 * (a ** 2)
+            answer_sa = 4 * (3.14 * (a ** 2))
             limit_sa = round(answer_sa, 2)
             return limit_sa
 
@@ -483,7 +483,7 @@ class AdvancedMath:
         def cone_sa(cls):
             a = int(input('Radius: '))
             b = int(input('Height: '))
-            answer_sa = 3.14 * a * math.sqrt(a ** 2 + b ** 2)
+            answer_sa = 3.14 * a * ( a + math.sqrt(a ** 2 + b ** 2))
             limit_sa = round(answer_sa, 2)
             return limit_sa
 
