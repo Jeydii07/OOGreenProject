@@ -1,5 +1,6 @@
 from AECalcFormulas import BasicMath
 from AECalcFormulas import AdvancedMath
+from AECalcFormulas import Conversion
 
 while True:
     # Choosing a Feature
@@ -317,6 +318,18 @@ while True:
                   "\nInput 4 for Kelvin to Celsius"
                   )
             z = int(input("Enter Feature: "))
+            if z == 1:
+                ftc = Conversion.Temperature.fahrenheit_to_celsius()
+                print("--------------The temperature is: ", ftc, "--------------")
+            elif z == 2:
+                ctf = Conversion.Temperature.celsius_to_fahrenheit()
+                print("--------------The temperature is: ", ctf, "--------------")
+            elif z == 3:
+                ctk = Conversion.Temperature.celsius_to_kelvin()
+                print("--------------The temperature is: ", ctk, "--------------")
+            elif z == 4:
+                ktc = Conversion.Temperature.kelvin_to_celsius()
+                print("--------------The temperature is: ", ktc, "--------------")
 
         elif y == 2:
             # Metric Formula List
@@ -344,6 +357,31 @@ while True:
                       "\nInput 7 for Yard to Feet"
                       "\nInput 8 for Feet to Yard"
                       )
+                w = int(input("Enter Feature: "))
+                if w == 1:
+                    itc = Conversion.Metric.inch_to_centi()
+                    print("--------------The measurement is: ", itc, "--------------")
+                elif w == 2:
+                    cti = Conversion.Metric.centimeter_in()
+                    print("--------------The measurement is: ", cti, "--------------")
+                elif w == 3:
+                    mtk = Conversion.Metric.meters_to_km()
+                    print("--------------The measurement is: ", mtk, "--------------")
+                elif w == 4:
+                    ktm = Conversion.Metric.km_to_meters()
+                    print("--------------The measurement is: ", ktm, "--------------")
+                elif w == 5:
+                    kmi = Conversion.Metric.km_to_miles()
+                    print("--------------The measurement is: ", kmi, "--------------")
+                elif w == 6:
+                    mik = Conversion.Metric.miles_to_km()
+                    print("--------------The measurement is: ", mik, "--------------")
+                elif w == 7:
+                    ytf = Conversion.Metric.yard_to_feet()
+                    print("--------------The measurement is: ", ytf, "--------------")
+                elif w == 8:
+                    fty = Conversion.Metric.feet_to_yard()
+                    print("--------------The measurement is: ", fty, "--------------")
 
             elif z == 2:
                 print("   ╔╦╗╔═╗╔╦╗╦═╗╦╔═╗  ╦  ╦╔═╗╦  ╦ ╦╔╦╗╔═╗")
@@ -354,7 +392,28 @@ while True:
                       "\nInput 2 for Pints to Quarts"
                       "\nInput 3 for Gallon to Quarts"
                       "\nInput 4 for Quarts to Gallon"
+                      "\nInput 5 for Pint to Cup"
+                      "\nInput 6 for Cup to Pint"
                       )
+                w = int(input("Enter Feature: "))
+                if w == 1:
+                    qtp = Conversion.Metric.quarts_to_pints()
+                    print("--------------The measurement is: ", qtp, "--------------")
+                elif w == 2:
+                    ptq = Conversion.Metric.pint_to_quarts()
+                    print("--------------The measurement is: ", ptq, "--------------")
+                elif w == 3:
+                    gtq = Conversion.Metric.gallons_to_quarts()
+                    print("--------------The measurement is: ", gtq, "--------------")
+                elif w == 4:
+                    qtg = Conversion.Metric.quarts_to_gallons()
+                    print("--------------The measurement is: ", qtg, "--------------")
+                elif w == 5:
+                    ptc = Conversion.Metric.pint_to_cup()
+                    print("--------------The measurement is: ", ptc, "--------------")
+                elif w == 6:
+                    ctp = Conversion.Metric.cup_to_pint()
+                    print("--------------The measurement is: ", ctp, "--------------")
 
             elif z == 3:
                 print("   ╔╦╗╔═╗╔╦╗╦═╗╦╔═╗  ╦ ╦╔═╗╦╔═╗╦ ╦╔╦╗╔═╗")
@@ -368,9 +427,22 @@ while True:
                       "\nInput 1 for Kilogram to Tons"
                       "\nInput 2 for Tons to Kilograms"
                       )
-
-
-
-
-
-
+                w = int(input("Enter Feature: "))
+                if w == 1:
+                    gtk = Conversion.Metric.gram_to_kg()
+                    print("--------------The measurement is: ", gtk, "--------------")
+                elif w == 2:
+                    ktg = Conversion.Metric.kg_to_grams()
+                    print("--------------The measurement is: ", ktg, "--------------")
+                elif w == 3:
+                    ptk = Conversion.Metric.pounds_to_kg()
+                    print("--------------The measurement is: ", ptk, "--------------")
+                elif w == 4:
+                    ktp = Conversion.Metric.kg_to_pounds()
+                    print("--------------The measurement is: ", ktp, "--------------")
+                elif w == 5:
+                    ktt = Conversion.Metric.kg_to_tons()
+                    print("--------------The measurement is: ", ktt, "--------------")
+                elif w == 6:
+                    ttk = Conversion.Metric.tons_to_kg()
+                    print("--------------The measurement is: ", ttk, "--------------")
