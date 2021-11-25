@@ -523,7 +523,7 @@ class Conversion:
         @classmethod
         def kelvin_to_celsius(cls):
             a = int(input('Kelvin (K): '))
-            answer_cel = a - 273.15
+            answer_cel = (a - 273.15)
             limit_cel = round(answer_cel, 2)
             return limit_cel
 
@@ -533,49 +533,49 @@ class Conversion:
         def inch_to_centi(cls):
             a = int(input('Inch (in): '))
             answer_cm = (a * 2.54)
-            limit_cm = round(answer_cm, 2)
+            limit_cm = round(answer_cm, 4)
             return limit_cm
 
         @classmethod
         def centimeter_in(cls):
             a = int(input('Centimeter (cm): '))
             answer_in = (a / 2.54)
-            limit_in = round(answer_in, 2)
+            limit_in = round(answer_in, 4)
             return limit_in
 
         @classmethod
         def meters_to_km(cls):
             a = int(input('Meters (m): '))
-            answer_km = (a * 1000)
-            limit_km = round(answer_km, 2)
+            answer_km = (a / 1000)
+            limit_km = round(answer_km, 4)
             return limit_km
 
         @classmethod
         def km_to_meters(cls):
             a = int(input('Kilometeres (km): '))
-            answer_meters = (a / 1000)
-            limit_meters = round(answer_meters, 2)
+            answer_meters = (a * 1000)
+            limit_meters = round(answer_meters, 4)
             return limit_meters
 
         @classmethod
         def km_to_miles(cls):
             a = int(input('Kilomteres (km): '))
             answer_mi = (a / 1.609)
-            limit_mi = round(answer_mi ,2)
+            limit_mi = round(answer_mi ,4)
             return limit_mi
 
         @classmethod
         def miles_to_km(cls):
             a = int(input('Miles (mi): '))
             answer_km = (a * 1.609)
-            limit_km = round(answer_km, 2)
+            limit_km = round(answer_km, 4)
             return limit_km
 
         @classmethod
         def yard_to_feet(cls):
             a = int(input('Yards (yd): '))
             answer_feet = (a * 3)
-            limit_feet = round(answer_feet, 2)
+            limit_feet = round(answer_feet, 4)
             return limit_feet
 
         @classmethod
@@ -618,14 +618,14 @@ class Conversion:
         def gallons_to_quarts(cls):
             a = int(input('Gallons (gal): '))
             answer_quarts = (a * 4)
-            limit_quarts = round(answer_quarts, 2)
+            limit_quarts = round(answer_quarts, 4)
             return limit_quarts
 
         @classmethod
         def quarts_to_gallons(cls):
             a = int(input('Quarts (qt): '))
-            answer_gallons = (a * 4)
-            limit_gallons = round(answer_gallons, 2)
+            answer_gallons = (a / 4)
+            limit_gallons = round(answer_gallons, 4)
             return limit_gallons
 
         ## WEIGHT ##
@@ -633,42 +633,42 @@ class Conversion:
         def gram_to_kg(cls):
             a = int(input('Grams (g): '))
             answer_kg = (a / 1000)
-            limit_kg = round(answer_kg, 2)
+            limit_kg = round(answer_kg, 4)
             return limit_kg
 
         @classmethod
         def kg_to_grams(cls):
             a = int(input('Kilograms (kg): '))
             answer_g = (a *  1000)
-            limit_g = round(answer_g, 2)
+            limit_g = round(answer_g, 4)
             return limit_g
 
         @classmethod
         def pounds_to_kg(cls):
             a = int(input('Pounds (lb): '))
             answer_kg = (a / 2.205)
-            limit_kg = round(answer_kg, 2)
+            limit_kg = round(answer_kg, 4)
             return limit_kg
 
         @classmethod
         def kg_to_pounds(cls):
             a = int(input('Kilorams (kg): '))
             answer_lb = (a * 2.205)
-            limit_lb = round(answer_lb, 2)
+            limit_lb = round(answer_lb, 4)
             return limit_lb
 
         @classmethod
         def kg_to_tons(cls):
             a = int(input('Kilograms (kg): '))
             answer_ton = (a / 907)
-            limit_ton = round(answer_ton, 2)
+            limit_ton = round(answer_ton, 4)
             return limit_ton
 
         @classmethod
         def tons_to_kg(cls):
             a = int(input('Tons (ton): '))
             answer_kg = (a * 907)
-            limit_kg = round(answer_kg, 2)
+            limit_kg = round(answer_kg, 4)
             return limit_kg
 
 
@@ -677,25 +677,25 @@ class Conversion:
         @classmethod
         def deca_to_hecto(cls):
             a = int(input('deka (da): '))
-            answer_hecto = (a ** 2)
+            answer_hecto = (a ** 4)
             return answer_hecto
 
         @classmethod
         def hecto_to_kilo(cls):
             a = int(input('hecto (h): '))
-            answer_kilo = (a ** 3)
+            answer_kilo = (a ** 4)
             return answer_kilo
 
         @classmethod
         def kilo_to_mega(cls):
             a = int(input('kilo (k): '))
-            answer_mega = (a ** 6)
+            answer_mega = (a ** 4)
             return answer_mega
 
         @classmethod
         def mega_to_giga(cls):
             a = int(input('mega (M): '))
-            answer_giga = (a ** 9)
+            answer_giga = (a ** 4)
             return answer_giga
 
         @classmethod
@@ -744,9 +744,6 @@ class Conversion:
 
 
 ###### CRAIMER'S RULE ###########
-
-
-
 
 
 
