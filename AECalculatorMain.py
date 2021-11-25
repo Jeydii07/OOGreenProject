@@ -319,6 +319,7 @@ while True:
             print("Choose a Formula:"
                   "\nInput 1 for Temperature"
                   "\nInput 2 for Metric"
+                  "\nInput 3 for SI Units"
                   )
             y = int(input("Enter Feature: "))
 
@@ -471,7 +472,72 @@ while True:
                         raise ValueError("--------------Please enter a valid Command""--------------")
                 elif z < 1 or z > 3:
                     raise ValueError("--------------Please enter a valid Command""--------------")
-            elif y < 1 or y > 2:
+            elif y == 3:
+                # SI Units Formula List
+                print("Choose a Feature:"
+                      "\nInput 1 for Positive Units"
+                      "\nInput 2 for Negative Units"
+                      )
+                z = int(input("Enter Feature: "))
+                if z == 1:
+                    print("Choose a Formula:"
+                          "\nInput 1 for Deca to Hecto"
+                          "\nInput 2 for Hecto to Kilo"
+                          "\nInput 3 for Kilo to Mega"
+                          "\nInput 4 for Mega to Giga"
+                          "\nInput 5 for Giga to Tera"
+                          )
+                    w = int(input("Enter Feature: "))
+                    if w == 1:
+                        dth = Conversion.SI_units.deca_to_hecto()
+                        print("--------------The measurement is: ", dth, "--------------")
+                    elif w == 2:
+                        htk = Conversion.SI_units.hecto_to_kilo()
+                        print("--------------The measurement is: ", htk, "--------------")
+                    elif w == 3:
+                        ktm = Conversion.SI_units.kilo_to_mega()
+                        print("--------------The measurement is: ", ktm, "--------------")
+                    elif w == 4:
+                        mtg = Conversion.SI_units.mega_to_giga()
+                        print("--------------The measurement is: ", mtg, "--------------")
+                    elif w == 5:
+                        gtt = Conversion.SI_units.giga_to_tera()
+                        print("--------------The measurement is: ", gtt, "--------------")
+                    elif w < 1 or w > 5:
+                        raise ValueError("--------------Please enter a valid Command""--------------")
+                elif z == 2:
+                    print("Choose a Formula:"
+                          "\nInput 1 for Deca to Deci"
+                          "\nInput 2 for Deci to Centi"
+                          "\nInput 3 for Centi to Mili"
+                          "\nInput 4 for Mili to Micro"
+                          "\nInput 5 for Micro to Nano"
+                          "\nInput 6 for Nano to Pico"
+                          )
+                    w = int(input("Enter Feature: "))
+                    if w == 1:
+                        dtd = Conversion.SI_units.deca_to_deci()
+                        print("--------------The measurement is: ", dtd, "--------------")
+                    elif w == 2:
+                        dtc = Conversion.SI_units.deci_to_centi()
+                        print("--------------The measurement is: ", dtc, "--------------")
+                    elif w == 3:
+                        ctm = Conversion.SI_units.centi_to_mili()
+                        print("--------------The measurement is: ", ctm, "--------------")
+                    elif w == 4:
+                        mtm = Conversion.SI_units.mili_to_micro()
+                        print("--------------The measurement is: ", mtm, "--------------")
+                    elif w == 5:
+                        mtn = Conversion.SI_units.micro_to_nano()
+                        print("--------------The measurement is: ", mtn, "--------------")
+                    elif w == 6:
+                        ntp = Conversion.SI_units.nano_to_pico()
+                        print("--------------The measurement is: ", ntp, "--------------")
+                    elif w < 1 or w > 5:
+                        raise ValueError("--------------Please enter a valid Command""--------------")
+                elif z < 1 or z > 2:
+                    raise ValueError("--------------Please enter a valid Command""--------------")
+            elif y < 1 or y > 3:
                 raise ValueError("--------------Please enter a valid Command""--------------")
         elif x == 4:
             print("--------------Thank you for using AECalculator""--------------")
