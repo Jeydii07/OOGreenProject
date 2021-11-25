@@ -440,8 +440,8 @@ while True:
                           "\nInput 2 for Kilogram to Gram"
                           "\nInput 3 for Pounds to Kilogram"
                           "\nInput 4 for Kilogram to Pounds"
-                          "\nInput 1 for Kilogram to Tons"
-                          "\nInput 2 for Tons to Kilograms"
+                          "\nInput 5 for Kilogram to Tons"
+                          "\nInput 6 for Tons to Kilograms"
                           )
                     w = int(input("Enter Feature: "))
                     if w == 1:
