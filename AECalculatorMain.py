@@ -207,29 +207,34 @@ while True:
                 print("           ║ ╦║╣ ║ ║║║║║╣  ║ ╠╦╝╚╦╝")
                 print("           ╚═╝╚═╝╚═╝╩ ╩╚═╝ ╩ ╩╚═ ╩ ")
                 print("Choose a Formula:"
-                      "\nInput 1 for Square(A)"
-                      "\nInput 2 for Square(P)"
-                      "\nInput 3 for Rectangle(A)"
-                      "\nInput 4 for Rectangle(P)"
-                      "\nInput 5 for Triangle(A)"
-                      "\nInput 6 for Triangle(P)"
-                      "\nInput 7 for Circle(A)"
-                      "\nInput 8 for Circle(C)"
-                      "\nInput 9 for Parallelogram(A)"
-                      "\nInput 10 for Parallelogram(P)"
-                      "\nInput 11 for Trapezoid(A)"
-                      "\nInput 12 for Trapezoid(P)"
-                      "\nInput 13 for Rectangular Prism(V)"
-                      "\nInput 14 for Rectangular Prism(A)"
-                      "\nInput 15 for Cube(V)"
-                      "\nInput 16 for Cube(A)"
-                      "\nInput 17 for Cylinder(V)"
-                      "\nInput 18 for Cylinder(A)"
-                      "\nInput 19 for Sphere(V)"
-                      "\nInput 20 for Sphere(A)"
-                      "\nInput 21 for Cone(V)"
-                      "\nInput 22 for Cone(A)"
-                      "\nInput 23 for Pyramid(V)"
+                      "\nAREA: "
+                      "\nInput 1 for Square"
+                      "\nInput 2 for Rectangle"
+                      "\nInput 3 for Triangle"
+                      "\nInput 4 for Circle"
+                      "\nInput 5 for Parallelogram"
+                      "\nInput 6 for Trapezoid"
+                      "\nPERIMETER: "
+                      "\nInput 7 for Square"
+                      "\nInput 8 for Rectangle"
+                      "\nInput 9 for Triangle"
+                      "\nInput 10 for Parallelogram"
+                      "\nInput 11 for Trapezoid"
+                      "\nCIRCUMFERENCE: "
+                      "\nInput 12 for Circle"
+                      "\nSURFACE AREA: "
+                      "\nInput 13 for Rectangular Prism"
+                      "\nInput 14 for Cube"
+                      "\nInput 15 for Cylinder"
+                      "\nInput 16 for Sphere"
+                      "\nInput 17 for Cone"
+                      "\nVOLUME: "
+                      "\nInput 18 for Rectangular Prism"
+                      "\nInput 19 for Cube"
+                      "\nInput 20 for Cylinder"
+                      "\nInput 21 for Sphere"
+                      "\nInput 22 for Cone"
+                      "\nInput 23 for Pyramid"
                       )
 
                 z = int(input("Enter Feature: "))
@@ -237,68 +242,68 @@ while True:
                     sqa = AdvancedMath.Geometry.square_area()
                     print("--------------The area is: ", sqa, "--------------")
                 elif z == 2:
-                    sqp = AdvancedMath.Geometry.square_perimeter()
-                    print("--------------The perimeter is: ", sqp, "--------------")
-                elif z == 3:
                     rea = AdvancedMath.Geometry.rectangle_area()
                     print("--------------The area is: ", rea, "--------------")
-                elif z == 4:
-                    rep = AdvancedMath.Geometry.rectangle_perimeter()
-                    print("--------------The perimeter is: ", rep, "--------------")
-                elif z == 5:
+                elif z == 3:
                     tra = AdvancedMath.Geometry.triangle_area()
                     print("--------------The area is: ", tra, "--------------")
-                elif z == 6:
-                    trp = AdvancedMath.Geometry.triangle_perimeter()
-                    print("--------------The perimeter is: ", trp, "--------------")
-                elif z == 7:
+                elif z == 4:
                     cia = AdvancedMath.Geometry.circle_area()
                     print("--------------The area is: ", cia, "--------------")
-                elif z == 8:
-                    cic = AdvancedMath.Geometry.circle_circumference()
-                    print("--------------The circumference is: ", cic, "--------------")
-                elif z == 9:
+                elif z == 5:
                     paa = AdvancedMath.Geometry.parallelogram_area()
                     print("--------------The area is: ", paa, "--------------")
+                elif z == 6:
+                    tra = AdvancedMath.Geometry.trapezoid_area()
+                    print("--------------The area is: ", tra, "--------------")
+                elif z == 7:
+                    sqp = AdvancedMath.Geometry.square_perimeter()
+                    print("--------------The perimeter is: ", sqp, "--------------")
+                elif z == 8:
+                    rep = AdvancedMath.Geometry.rectangle_perimeter()
+                    print("--------------The perimeter is: ", rep, "--------------")
+                elif z == 9:
+                    trp = AdvancedMath.Geometry.triangle_perimeter()
+                    print("--------------The perimeter is: ", trp, "--------------")
                 elif z == 10:
                     pap = AdvancedMath.Geometry.parallelogram_perimeter()
                     print("--------------The perimeter is: ", pap, "--------------")
                 elif z == 11:
-                    tra = AdvancedMath.Geometry.trapezoid_area()
-                    print("--------------The area is: ", tra, "--------------")
-                elif z == 12:
                     trp = AdvancedMath.Geometry.trapezoid_perimeter()
                     print("--------------The perimeter is: ", trp, "--------------")
+                elif z == 12:
+                    cic = AdvancedMath.Geometry.circle_circumference()
+                    print("--------------The circumference is: ", cic, "--------------")
                 elif z == 13:
-                    rpv = AdvancedMath.Geometry.rectangular_prism_volume()
-                    print("--------------The volume is: ", rpv, "--------------")
-                elif z == 14:
                     rpa = AdvancedMath.Geometry.rectangular_prism_surface()
                     print("--------------The surface area is: ", rpa, "--------------")
-                elif z == 15:
-                    cuv = AdvancedMath.Geometry.cube_volume()
-                    print("--------------The volume is: ", cuv, "--------------")
-                elif z == 16:
+                elif z == 14:
                     cua = AdvancedMath.Geometry.cube_sa()
                     print("--------------The surface area is: ", cua, "--------------")
-                elif z == 17:
-                    cyv = AdvancedMath.Geometry.cylinder_volume()
-                    print("--------------The volume is: ", cyv, "--------------")
-                elif z == 18:
+                elif z == 15:
                     cya = AdvancedMath.Geometry.cylinder_sa()
                     print("--------------The surface area is: ", cya, "--------------")
-                elif z == 19:
-                    spv = AdvancedMath.Geometry.sphere_volume()
-                    print("--------------The volume is: ", spv, "--------------")
-                elif z == 20:
+                elif z == 16:
                     spa = AdvancedMath.Geometry.sphere_sa()
                     print("--------------The surface area is: ", spa, "--------------")
-                elif z == 21:
-                    cov = AdvancedMath.Geometry.cone_volume()
-                    print("--------------The volume is: ", cov, "--------------")
-                elif z == 22:
+                elif z == 17:
                     coa = AdvancedMath.Geometry.cone_sa()
                     print("--------------The surface area is: ", coa, "--------------")
+                elif z == 18:
+                    rpv = AdvancedMath.Geometry.rectangular_prism_volume()
+                    print("--------------The volume is: ", rpv, "--------------")
+                elif z == 19:
+                    cuv = AdvancedMath.Geometry.cube_volume()
+                    print("--------------The volume is: ", cuv, "--------------")
+                elif z == 20:
+                    cyv = AdvancedMath.Geometry.cylinder_volume()
+                    print("--------------The volume is: ", cyv, "--------------")
+                elif z == 21:
+                    spv = AdvancedMath.Geometry.sphere_volume()
+                    print("--------------The volume is: ", spv, "--------------")
+                elif z == 22:
+                    cov = AdvancedMath.Geometry.cone_volume()
+                    print("--------------The volume is: ", cov, "--------------")
                 elif z == 23:
                     pyv = AdvancedMath.Geometry.pyramid_volume()
                     print("--------------The volume is: ", pyv, "--------------")
