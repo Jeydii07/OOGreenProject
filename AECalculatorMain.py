@@ -36,6 +36,9 @@ while True:
                   "\nInput 6 for Roots"
                   "\nInput 7 for Logarithm"
                   "\nInput 8 for Sin Function"
+                  "\nInput 9 for Cos Function"
+                  "\nInput 10 for Tan Function"
+                  "\nInput 11 for Arc Sin Function"
                   )
 
             y = int(input(YELLOW + "Enter Feature: "))
@@ -110,46 +113,46 @@ while True:
 
                 if z == 1:
                     spd = AdvancedMath.Physics.speed()
-                    print(BLUE + "--------------The speed is: ", spd, "--------------")
+                    print(BLUE + "--------------The speed is: ", spd, "m/s", "--------------")
                 elif z == 2:
                     vel = AdvancedMath.Physics.velocity()
-                    print(BLUE + "--------------The velocity is: ", vel, "--------------")
+                    print(BLUE + "--------------The velocity is: ", vel, "m/s", "--------------")
                 elif z == 3:
                     acc = AdvancedMath.Physics.acc()
-                    print(BLUE + "--------------The acceleration is: ", acc, "--------------")
+                    print(BLUE + "--------------The acceleration is: ", acc, "m/s^2", "--------------")
                 elif z == 4:
                     pre = AdvancedMath.Physics.pressure()
-                    print(BLUE + "--------------The pressure is: ", pre, "--------------")
+                    print(BLUE + "--------------The pressure is: ", pre, "Pa", "--------------")
                 elif z == 5:
                     forc = AdvancedMath.Physics.force()
-                    print(BLUE + "--------------The force is: ", forc, "--------------")
+                    print(BLUE + "--------------The force is: ", forc, "N", "--------------")
                 elif z == 6:
                     mom = AdvancedMath.Physics.momen()
-                    print(BLUE + "--------------The momentum is: ", mom, "--------------")
+                    print(BLUE + "--------------The momentum is: ", mom, "kg⋅m/s", "--------------")
                 elif z == 7:
                     pow = AdvancedMath.Physics.power()
-                    print(BLUE + "--------------The power is: ", pow, "--------------")
+                    print(BLUE + "--------------The power is: ", pow, "W", "--------------")
                 elif z == 8:
                     vol = AdvancedMath.Physics.volt()
-                    print(BLUE + "--------------The voltage is: ", vol, "--------------")
+                    print(BLUE + "--------------The voltage is: ", vol, "V", "--------------")
                 elif z == 9:
                     cur = AdvancedMath.Physics.current()
-                    print(BLUE + "--------------The current is: ", cur, "--------------")
+                    print(BLUE + "--------------The current is: ", cur, "A", "--------------")
                 elif z == 10:
                     res = AdvancedMath.Physics.resistance()
-                    print(BLUE + "--------------The resistance is: ", res, "--------------")
+                    print(BLUE + "--------------The resistance is: ", res, "Ω", "--------------")
                 elif z == 11:
                     ke = AdvancedMath.Physics.ke()
-                    print(BLUE + "--------------The kinetic energy is: ", ke, "--------------")
+                    print(BLUE + "--------------The kinetic energy is: ", ke, "J", "--------------")
                 elif z == 12:
                     wor = AdvancedMath.Physics.work()
-                    print(BLUE + "--------------The work is: ", wor, "--------------")
+                    print(BLUE + "--------------The work is: ", wor, "J", "--------------")
                 elif z == 13:
                     col = AdvancedMath.Physics.coulombslaw()
-                    print(BLUE + "--------------The electric force is: ", col, "--------------")
+                    print(BLUE + "--------------The electric force is: ", col, "C", "--------------")
                 elif z == 14:
                     drv = AdvancedMath.Physics.driftv()
-                    print(BLUE + "--------------The drift velocity is: ", drv, "--------------")
+                    print(BLUE + "--------------The drift velocity is: ", drv, "m/s", "--------------")
                 elif z < 1 or z > 14:
                     raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
             elif y == 2:
@@ -173,37 +176,37 @@ while True:
                 z = int(input(YELLOW + "Enter Feature: "))
                 if z == 1:
                     den = AdvancedMath.Chemistry.density()
-                    print(BLUE + "--------------The density is: ", den, "--------------")
+                    print(BLUE + "--------------The density is: ", den, "cm^3", "--------------")
                 elif z == 2:
                     bp1 = AdvancedMath.Chemistry.boyle_p1()
-                    print(BLUE + "--------------The P1 value is: ", bp1, "--------------")
+                    print(BLUE + "--------------The P1 value is: ", bp1, "atm", "--------------")
                 elif z == 3:
                     bp2 = AdvancedMath.Chemistry.boyle_p2()
-                    print(BLUE + "--------------The P2 value is: ", bp2, "--------------")
+                    print(BLUE + "--------------The P2 value is: ", bp2, "atm", "--------------")
                 elif z == 4:
                     bv1 = AdvancedMath.Chemistry.boyle_v1()
-                    print(BLUE + "--------------The V1 value is: ", bv1, "--------------")
+                    print(BLUE + "--------------The V1 value is: ", bv1, "cm^3", "--------------")
                 elif z == 5:
                     bv2 = AdvancedMath.Chemistry.boyle_v2()
-                    print(BLUE + "--------------The V2 value is: ", bv2, "--------------")
+                    print(BLUE + "--------------The V2 value is: ", bv2, "cm^3", "--------------")
                 elif z == 6:
                     cp1 = AdvancedMath.Chemistry.combined_gas_law_p1()
-                    print(BLUE + "--------------The P1 value is: ", cp1, "--------------")
+                    print(BLUE + "--------------The P1 value is: ", cp1, "atm", "--------------")
                 elif z == 7:
                     cp2 = AdvancedMath.Chemistry.combined_gas_law_p2()
-                    print(BLUE + "--------------The P2 value is: ", cp2, "--------------")
+                    print(BLUE + "--------------The P2 value is: ", cp2, "atm", "--------------")
                 elif z == 8:
                     cv1 = AdvancedMath.Chemistry.combined_gas_law_v1()
-                    print(BLUE + "--------------The V1 value is: ", cv1, "--------------")
+                    print(BLUE + "--------------The V1 value is: ", cv1, "cm^3", "--------------")
                 elif z == 9:
                     cv2 = AdvancedMath.Chemistry.combined_gas_law_v2()
-                    print(BLUE + "--------------The V2 value is: ", cv2, "--------------")
+                    print(BLUE + "--------------The V2 value is: ", cv2, "cm^3", "--------------")
                 elif z == 10:
                     ct1 = AdvancedMath.Chemistry.combined_gas_law_t1()
-                    print(BLUE + "--------------The T1 value is: ", ct1, "--------------")
+                    print(BLUE + "--------------The T1 value is: ", ct1, "K", "--------------")
                 elif z == 11:
                     ct2 = AdvancedMath.Chemistry.combined_gas_law_t2()
-                    print(BLUE + "--------------The T2 value is: ", ct2, "--------------")
+                    print(BLUE + "--------------The T2 value is: ", ct2, "K", "--------------")
                 elif z < 1 or z > 11:
                     raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
             elif y == 3:
@@ -245,73 +248,73 @@ while True:
                 z = int(input(YELLOW + "Enter Feature: "))
                 if z == 1:
                     sqa = AdvancedMath.Geometry.square_area()
-                    print(BLUE + "--------------The area is: ", sqa, "--------------")
+                    print(BLUE + "--------------The area is: ", sqa, "cm^2", "--------------")
                 elif z == 2:
                     rea = AdvancedMath.Geometry.rectangle_area()
-                    print(BLUE + "--------------The area is: ", rea, "--------------")
+                    print(BLUE + "--------------The area is: ", rea, "cm^2", "--------------")
                 elif z == 3:
                     tra = AdvancedMath.Geometry.triangle_area()
-                    print(BLUE + "--------------The area is: ", tra, "--------------")
+                    print(BLUE + "--------------The area is: ", tra, "cm^2", "--------------")
                 elif z == 4:
                     cia = AdvancedMath.Geometry.circle_area()
-                    print(BLUE + "--------------The area is: ", cia, "--------------")
+                    print(BLUE + "--------------The area is: ", cia, "cm^2", "--------------")
                 elif z == 5:
                     paa = AdvancedMath.Geometry.parallelogram_area()
-                    print(BLUE + "--------------The area is: ", paa, "--------------")
+                    print(BLUE + "--------------The area is: ", paa, "cm^2", "--------------")
                 elif z == 6:
                     tra = AdvancedMath.Geometry.trapezoid_area()
-                    print(BLUE + "--------------The area is: ", tra, "--------------")
+                    print(BLUE + "--------------The area is: ", tra, "cm^2", "--------------")
                 elif z == 7:
                     sqp = AdvancedMath.Geometry.square_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", sqp, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", "cm", sqp, "--------------")
                 elif z == 8:
                     rep = AdvancedMath.Geometry.rectangle_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", rep, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", "cm", rep, "--------------")
                 elif z == 9:
                     trp = AdvancedMath.Geometry.triangle_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", trp, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", "cm", trp, "--------------")
                 elif z == 10:
                     pap = AdvancedMath.Geometry.parallelogram_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", pap, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", "cm", pap, "--------------")
                 elif z == 11:
                     trp = AdvancedMath.Geometry.trapezoid_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", trp, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", "cm", trp, "--------------")
                 elif z == 12:
                     cic = AdvancedMath.Geometry.circle_circumference()
-                    print(BLUE + "--------------The circumference is: ", cic, "--------------")
+                    print(BLUE + "--------------The circumference is: ", "m", cic, "--------------")
                 elif z == 13:
                     rpa = AdvancedMath.Geometry.rectangular_prism_surface()
-                    print(BLUE + "--------------The surface area is: ", rpa, "--------------")
+                    print(BLUE + "--------------The surface area is: ", "m^2", rpa, "--------------")
                 elif z == 14:
                     cua = AdvancedMath.Geometry.cube_sa()
-                    print(BLUE + "--------------The surface area is: ", cua, "--------------")
+                    print(BLUE + "--------------The surface area is: ", cua, "m^2", "--------------")
                 elif z == 15:
                     cya = AdvancedMath.Geometry.cylinder_sa()
-                    print(BLUE + "--------------The surface area is: ", cya, "--------------")
+                    print(BLUE + "--------------The surface area is: ", cya, "m^2", "--------------")
                 elif z == 16:
                     spa = AdvancedMath.Geometry.sphere_sa()
-                    print(BLUE + "--------------The surface area is: ", spa, "--------------")
+                    print(BLUE + "--------------The surface area is: ", spa, "m^2", "--------------")
                 elif z == 17:
                     coa = AdvancedMath.Geometry.cone_sa()
-                    print(BLUE + "--------------The surface area is: ", coa, "--------------")
+                    print(BLUE + "--------------The surface area is: ", coa, "m^2", "--------------")
                 elif z == 18:
                     rpv = AdvancedMath.Geometry.rectangular_prism_volume()
-                    print(BLUE + "--------------The volume is: ", rpv, "--------------")
+                    print(BLUE + "--------------The volume is: ", rpv, "cm^3", "--------------")
                 elif z == 19:
                     cuv = AdvancedMath.Geometry.cube_volume()
-                    print(BLUE + "--------------The volume is: ", cuv, "--------------")
+                    print(BLUE + "--------------The volume is: ", cuv, "cm^3", "--------------")
                 elif z == 20:
                     cyv = AdvancedMath.Geometry.cylinder_volume()
-                    print(BLUE + "--------------The volume is: ", cyv, "--------------")
+                    print(BLUE + "--------------The volume is: ", cyv, "cm^3", "--------------")
                 elif z == 21:
                     spv = AdvancedMath.Geometry.sphere_volume()
-                    print(BLUE + "--------------The volume is: ", spv, "--------------")
+                    print(BLUE + "--------------The volume is: ", spv, "cm^3", "--------------")
                 elif z == 22:
                     cov = AdvancedMath.Geometry.cone_volume()
-                    print(BLUE + "--------------The volume is: ", cov, "--------------")
+                    print(BLUE + "--------------The volume is: ", cov, "cm^3", "--------------")
                 elif z == 23:
                     pyv = AdvancedMath.Geometry.pyramid_volume()
-                    print(BLUE + "--------------The volume is: ", pyv, "--------------")
+                    print(BLUE + "--------------The volume is: ", pyv, "cm^3", "--------------")
                 elif z < 1 or z > 23:
                     raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
             elif y < 1 or y > 3:
@@ -342,16 +345,16 @@ while True:
                 z = int(input(YELLOW + "Enter Feature: "))
                 if z == 1:
                     ftc = Conversion.Temperature.fahrenheit_to_celsius()
-                    print(BLUE + "--------------The temperature is: ", ftc, "--------------")
+                    print(BLUE + "--------------The temperature is: ", ftc, "°C", "--------------")
                 elif z == 2:
                     ctf = Conversion.Temperature.celsius_to_fahrenheit()
-                    print(BLUE + "--------------The temperature is: ", ctf, "--------------")
+                    print(BLUE + "--------------The temperature is: ", ctf, "°F", "--------------")
                 elif z == 3:
                     ctk = Conversion.Temperature.celsius_to_kelvin()
-                    print(BLUE + "--------------The temperature is: ", ctk, "--------------")
+                    print(BLUE + "--------------The temperature is: ", ctk, "K", "--------------")
                 elif z == 4:
                     ktc = Conversion.Temperature.kelvin_to_celsius()
-                    print(BLUE + "--------------The temperature is: ", ktc, "--------------")
+                    print(BLUE + "--------------The temperature is: ", ktc, "°C", "--------------")
                 elif z < 1 or z > 4:
                     raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
             elif y == 2:
@@ -383,28 +386,28 @@ while True:
                     w = int(input(YELLOW + "Enter Feature: "))
                     if w == 1:
                         itc = Conversion.Metric.inch_to_centi()
-                        print(BLUE + "--------------The measurement is: ", itc, "--------------")
+                        print(BLUE + "--------------The measurement is: ", itc, "cm", "--------------")
                     elif w == 2:
                         cti = Conversion.Metric.centimeter_in()
-                        print(BLUE + "--------------The measurement is: ", cti, "--------------")
+                        print(BLUE + "--------------The measurement is: ", cti, "in", "--------------")
                     elif w == 3:
                         mtk = Conversion.Metric.meters_to_km()
-                        print(BLUE + "--------------The measurement is: ", mtk, "--------------")
+                        print(BLUE + "--------------The measurement is: ", mtk, "km", "--------------")
                     elif w == 4:
                         ktm = Conversion.Metric.km_to_meters()
-                        print(BLUE + "--------------The measurement is: ", ktm, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ktm, "m", "--------------")
                     elif w == 5:
                         kmi = Conversion.Metric.km_to_miles()
-                        print(BLUE + "--------------The measurement is: ", kmi, "--------------")
+                        print(BLUE + "--------------The measurement is: ", kmi, "mi", "--------------")
                     elif w == 6:
                         mik = Conversion.Metric.miles_to_km()
-                        print(BLUE + "--------------The measurement is: ", mik, "--------------")
+                        print(BLUE + "--------------The measurement is: ", mik, "km", "--------------")
                     elif w == 7:
                         ytf = Conversion.Metric.yard_to_feet()
-                        print(BLUE + "--------------The measurement is: ", ytf, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ytf, "ft", "--------------")
                     elif w == 8:
                         fty = Conversion.Metric.feet_to_yard()
-                        print(BLUE + "--------------The measurement is: ", fty, "--------------")
+                        print(BLUE + "--------------The measurement is: ", fty, "yd", "--------------")
                     elif w < 1 or w > 6:
                         raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
 
@@ -423,22 +426,22 @@ while True:
                     w = int(input(YELLOW + "Enter Feature: "))
                     if w == 1:
                         qtp = Conversion.Metric.quarts_to_pints()
-                        print(BLUE + "--------------The measurement is: ", qtp, "--------------")
+                        print(BLUE + "--------------The measurement is: ", qtp, "pt", "--------------")
                     elif w == 2:
                         ptq = Conversion.Metric.pint_to_quarts()
-                        print(BLUE + "--------------The measurement is: ", ptq, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ptq, "qt", "--------------")
                     elif w == 3:
                         gtq = Conversion.Metric.gallons_to_quarts()
-                        print(BLUE + "--------------The measurement is: ", gtq, "--------------")
+                        print(BLUE + "--------------The measurement is: ", gtq, "qt", "--------------")
                     elif w == 4:
                         qtg = Conversion.Metric.quarts_to_gallons()
-                        print(BLUE + "--------------The measurement is: ", qtg, "--------------")
+                        print(BLUE + "--------------The measurement is: ", qtg, "gal", "--------------")
                     elif w == 5:
                         ptc = Conversion.Metric.pint_to_cup()
-                        print(BLUE + "--------------The measurement is: ", ptc, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ptc, "cup", "--------------")
                     elif w == 6:
                         ctp = Conversion.Metric.cup_to_pint()
-                        print(BLUE + "--------------The measurement is: ", ctp, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ctp, "pt", "--------------")
                     elif w < 1 or w > 6:
                         raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
 
@@ -457,22 +460,22 @@ while True:
                     w = int(input(YELLOW + "Enter Feature: "))
                     if w == 1:
                         gtk = Conversion.Metric.gram_to_kg()
-                        print(BLUE + "--------------The measurement is: ", gtk, "--------------")
+                        print(BLUE + "--------------The measurement is: ", gtk, "kg", "--------------")
                     elif w == 2:
                         ktg = Conversion.Metric.kg_to_grams()
-                        print(BLUE + "--------------The measurement is: ", ktg, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ktg, "g", "--------------")
                     elif w == 3:
                         ptk = Conversion.Metric.pounds_to_kg()
-                        print(BLUE + "--------------The measurement is: ", ptk, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ptk, "kg", "--------------")
                     elif w == 4:
                         ktp = Conversion.Metric.kg_to_pounds()
-                        print(BLUE + "--------------The measurement is: ", ktp, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ktp, "pounds", "--------------")
                     elif w == 5:
                         ktt = Conversion.Metric.kg_to_tons()
-                        print(BLUE + "--------------The measurement is: ", ktt, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ktt, "tons", "--------------")
                     elif w == 6:
                         ttk = Conversion.Metric.tons_to_kg()
-                        print(BLUE + "--------------The measurement is: ", ttk, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ttk, "kg", "--------------")
                     elif w < 1 or w > 6:
                         raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
                 elif z < 1 or z > 3:
@@ -501,19 +504,19 @@ while True:
                     w = int(input(YELLOW + "Enter Feature: "))
                     if w == 1:
                         dth = Conversion.SI_units.deca_to_hecto()
-                        print(BLUE + "--------------The measurement is: ", dth, "--------------")
+                        print(BLUE + "--------------The measurement is: ", dth, "H", "--------------")
                     elif w == 2:
                         htk = Conversion.SI_units.hecto_to_kilo()
-                        print(BLUE + "--------------The measurement is: ", htk, "--------------")
+                        print(BLUE + "--------------The measurement is: ", htk, "K", "--------------")
                     elif w == 3:
                         ktm = Conversion.SI_units.kilo_to_mega()
-                        print(BLUE + "--------------The measurement is: ", ktm, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ktm, "M", "--------------")
                     elif w == 4:
                         mtg = Conversion.SI_units.mega_to_giga()
-                        print(BLUE + "--------------The measurement is: ", mtg, "--------------")
+                        print(BLUE + "--------------The measurement is: ", mtg, "G", "--------------")
                     elif w == 5:
                         gtt = Conversion.SI_units.giga_to_tera()
-                        print(BLUE + "--------------The measurement is: ", gtt, "--------------")
+                        print(BLUE + "--------------The measurement is: ", gtt, "T", "--------------")
                     elif w < 1 or w > 5:
                         raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
                 elif z == 2:
@@ -531,22 +534,22 @@ while True:
                     w = int(input(YELLOW + "Enter Feature: "))
                     if w == 1:
                         dtd = Conversion.SI_units.deca_to_deci()
-                        print(BLUE + "--------------The measurement is: ", dtd, "--------------")
+                        print(BLUE + "--------------The measurement is: ", dtd, "d", "--------------")
                     elif w == 2:
                         dtc = Conversion.SI_units.deci_to_centi()
-                        print(BLUE + "--------------The measurement is: ", dtc, "--------------")
+                        print(BLUE + "--------------The measurement is: ", dtc, "cm", "--------------")
                     elif w == 3:
                         ctm = Conversion.SI_units.centi_to_mili()
-                        print(BLUE + "--------------The measurement is: ", ctm, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ctm, "m", "--------------")
                     elif w == 4:
                         mtm = Conversion.SI_units.mili_to_micro()
-                        print(BLUE + "--------------The measurement is: ", mtm, "--------------")
+                        print(BLUE + "--------------The measurement is: ", mtm, "µ", "--------------")
                     elif w == 5:
                         mtn = Conversion.SI_units.micro_to_nano()
-                        print(BLUE + "--------------The measurement is: ", mtn, "--------------")
+                        print(BLUE + "--------------The measurement is: ", mtn, "n", "--------------")
                     elif w == 6:
                         ntp = Conversion.SI_units.nano_to_pico()
-                        print(BLUE + "--------------The measurement is: ", ntp, "--------------")
+                        print(BLUE + "--------------The measurement is: ", ntp, "p", "--------------")
                     elif w < 1 or w > 5:
                         raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
                 elif z < 1 or z > 2:
@@ -555,7 +558,7 @@ while True:
                 raise ValueError(TRED + "--------------Please enter a valid Command""--------------")
         elif x == 4:
             print(BLUE + "--------------Thank you for using AECalculator""--------------")
-            print(RESET + "If there are any problems or insights regarding the program."
+            print(RESET + "If there are any Concerns or insights regarding the program."
                   "\nYou may contact us through the following Emails:"
                   "\njdnepomuceno@donbosco.edu.ph"
                   "\npdcponciano@donbosco.edu.ph")
