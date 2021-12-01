@@ -266,25 +266,25 @@ while True:
                     print(BLUE + "--------------The area is: ", tra, "cm^2", "--------------")
                 elif z == 7:
                     sqp = AdvancedMath.Geometry.square_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", "cm", sqp, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", sqp, "cm", "--------------")
                 elif z == 8:
                     rep = AdvancedMath.Geometry.rectangle_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", "cm", rep, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", rep, "cm", "--------------")
                 elif z == 9:
                     trp = AdvancedMath.Geometry.triangle_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", "cm", trp, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", trp, "cm", "--------------")
                 elif z == 10:
                     pap = AdvancedMath.Geometry.parallelogram_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", "cm", pap, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", pap, "cm", "--------------")
                 elif z == 11:
                     trp = AdvancedMath.Geometry.trapezoid_perimeter()
-                    print(BLUE + "--------------The perimeter is: ", "cm", trp, "--------------")
+                    print(BLUE + "--------------The perimeter is: ", trp, "cm", "--------------")
                 elif z == 12:
                     cic = AdvancedMath.Geometry.circle_circumference()
-                    print(BLUE + "--------------The circumference is: ", "m", cic, "--------------")
+                    print(BLUE + "--------------The circumference is: ", cic, "m", "--------------")
                 elif z == 13:
                     rpa = AdvancedMath.Geometry.rectangular_prism_surface()
-                    print(BLUE + "--------------The surface area is: ", "m^2", rpa, "--------------")
+                    print(BLUE + "--------------The surface area is: ", rpa, "m^2", "--------------")
                 elif z == 14:
                     cua = AdvancedMath.Geometry.cube_sa()
                     print(BLUE + "--------------The surface area is: ", cua, "m^2", "--------------")
