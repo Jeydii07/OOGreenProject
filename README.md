@@ -29,7 +29,7 @@
   *  Rectangular Prism, Cube, Cylinder, Sphere, Cone and Pyramid
   ----------------------------------------------
   * Can Handle Conversions (SI, Metric, Temperature)
-  * Solve Matrices using Craimers Rule
+ 
   
 [Trello Board](https://trello.com/b/2SZiAiPq/001lxgreen)
 
