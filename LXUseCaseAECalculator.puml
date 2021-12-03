@@ -1,4 +1,4 @@
-﻿@startuml
+@startuml
 left to right direction
 skinparam style strictuml
 skinparam classAttributeIconSize 0
@@ -40,6 +40,6 @@ A3 --> I7
 :User: ---> I4
 :User: ---> I5
 
-note right of I2 : Formulas include Physics, Chemistry, Geometry, Unit conversions, Functions and Matrices
+note right of I2 : Formulas include Physics, Chemistry, Geometry, Unit conversions, and Functions
 note right of I4 : Calculation is formula based
 @enduml
