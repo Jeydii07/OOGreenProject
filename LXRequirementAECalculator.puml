@@ -27,7 +27,7 @@ package AECalculator {
 
 }
 note "3 Main Features Include:\n Basic Math\n Advanced Math\n Conversion" as N1
-note "Formulas Include:\n Basic Math Concepts\n Physics\n Chemistry\n Geometry\n Common Conversion Units\n Matrices" as N2
+note "Formulas Include:\n Basic Math Concepts\n Physics\n Chemistry\n Geometry\n Common Conversion Units" as N2
 
 I1 -left- I2
 I2 -left- I3
