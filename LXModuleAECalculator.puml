@@ -42,8 +42,9 @@ class Output{
 ()Show computed value
 }
 
-AECalculator -down- MainMenu
-User -right- MainMenu
-MainMenu -right- FormulaList
-MainMenu -down- Output
+
+AECalculator --> User
+User --> MainMenu
+MainMenu .right.> FormulaList
+MainMenu --> Output
 @enduml
